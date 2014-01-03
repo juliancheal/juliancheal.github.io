@@ -1,0 +1,80 @@
+[
+  {
+    "name": "",
+    "url": "",
+    "date": "",
+    "country": "",
+    "city": ""
+  }, {
+    "title": "Robots",
+    "name": "Front-Trends 2014",
+    "url": "http://front-trends.com",
+    "date": "2014-05-07",
+    "days": 3,
+    "country": "pl",
+    "city": "Warsaw, Poland"
+  }, {
+    "name": "Drones & Aerial Robotics Conference",
+    "title": "Afterdarc: Drone Demo Show",
+    "url": "https://droneconference.org/afterdarc",
+    "date": "2013-11-13",
+    "days": 3,
+    "country": "us",
+    "city": "NY, NY, USA"
+  }, {
+    "name": "Nodecopter",
+    "url": "http://nodecopter.com/2013/sheffield/nov-23",
+    "date": "2013-11-23",
+    "country": "gb",
+    "city": "Sheffield"
+  }, {
+    "name": "Nodeconf EU",
+    "url": "http://nodeconfeu.com",
+    "date": "2013-09-08",
+    "days": 3,
+    "country": "ie",
+    "city": "Waterford"
+  }, {
+    "name": "Nodecopter",
+    "url": "http://nodecopter.com/2013/southampton/aug-10",
+    "date": "2013-08-10",
+    "country": "gb",
+    "city": "Sheffield"
+  }, {
+    "name": "Nodecopter",
+    "url": "http://nodecopter.com/2013/london/aug-18",
+    "date": "2013-08-18",
+    "country": "gb",
+    "city": "London"
+  }, {
+    "name": "Nodecopter",
+    "url": "http://nodecopter.com/2013/scotland/may-11",
+    "date": "2013-05-11",
+    "country": "scotland",
+    "city": "Edinburgh"
+  }, {
+    "name": "Nodecopter",
+    "url": "http://nodecopter.com/2013/bath/mar-23",
+    "date": "2013-04-23",
+    "country": "gb",
+    "city": "Bath"
+  }, {
+    "name": "Nodecopter",
+    "url": "http://nodecopter.com/2013/london/mar-16",
+    "date": "2013-04-16",
+    "country": "gb",
+    "city": "London"
+  }, {
+    "name": "",
+    "url": "",
+    "date": "",
+    "country": "",
+    "city": ""
+  }, {
+    "name": "",
+    "url": "",
+    "date": "",
+    "country": "",
+    "city": ""
+  }
+]

@@ -1,0 +1,14 @@
+html {
+	background: #302722 url(images/tweed.jpg);
+	height: 100%;
+}
+body {
+	color: white;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  font-size: 80%;
+  padding: 1em 0;
+}
