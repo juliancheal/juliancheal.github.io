@@ -6,6 +6,10 @@ body {
 	color: white;
 }
 
+a {
+  color: inherit;
+}
+
 footer {
   display: block;
   text-align: center;
