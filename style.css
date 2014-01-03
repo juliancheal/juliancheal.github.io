@@ -3,6 +3,7 @@ html {
 	height: 100%;
 }
 body {
+  background: url(images/top-grad.png) top left repeat-x;
 	color: white;
   font-family: Baskerville, serif;
   padding: 1em;
