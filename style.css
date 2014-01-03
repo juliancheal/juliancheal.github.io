@@ -4,10 +4,21 @@ html {
 }
 body {
 	color: white;
+  font-family: Baskerville, serif;
+  padding: 1em;
 }
 
 a {
   color: inherit;
+}
+
+h1 a {
+	background: url(images/julian-cheal.png) top left no-repeat;
+	display: block;
+	height: 291px;
+	margin-left: -30px;
+	text-indent: -99999px;
+	width: 781px;
 }
 
 footer {

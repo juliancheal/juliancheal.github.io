@@ -23,10 +23,10 @@
     "city": "NY, NY, USA"
   }, {
     "name": "Nodecopter",
-    "sessions": [{"title": "Nodecopter Sheffield", "type": "Workshop"}],
+    "sessions": [{"title": "Nodecopter Sheffieldengland", "type": "Workshop"}],
     "url": "http://nodecopter.com/2013/sheffield/nov-23",
     "date": "2013-11-23",
-    "country": "gb",
+    "country": "england",
     "city": "Sheffield"
   }, {
     "name": "Nodeconf EU",
@@ -41,14 +41,14 @@
     "sessions": [{"title": "Nodecopter Southampton", "type": "Workshop"}],
     "url": "http://nodecopter.com/2013/southampton/aug-10",
     "date": "2013-08-10",
-    "country": "gb",
+    "country": "england",
     "city": "Sheffield"
   }, {
     "name": "Nodecopter",
     "sessions": [{"title": "Nodecopter London", "type": "Workshop"}],
     "url": "http://nodecopter.com/2013/london/aug-18",
     "date": "2013-08-18",
-    "country": "gb",
+    "country": "england",
     "city": "London"
   }, {
     "name": "Nodecopter",
@@ -62,14 +62,14 @@
     "sessions": [{"title": "Nodecopter Bath", "type": "Workshop"}],
     "url": "http://nodecopter.com/2013/bath/mar-23",
     "date": "2013-04-23",
-    "country": "gb",
+    "country": "england",
     "city": "Bath"
   }, {
     "name": "Nodecopter",
     "sessions": [{"title": "Nodecopter London", "type": "Workshop"}],
     "url": "http://nodecopter.com/2013/london/mar-16",
     "date": "2013-04-16",
-    "country": "gb",
+    "country": "england",
     "city": "London"
   }, {
     "name": "",
