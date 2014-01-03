@@ -98,7 +98,7 @@ function eventTemplate(event) {
 		}
 		
 		// Defaults
-		session.title = session.title || "TBD";
+		session.title = session.title || "";
 		session.type = session.type || "Talk";
 		
 		var h2 = element('h2', [
