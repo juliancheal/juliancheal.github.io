@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 50 200">
+	<defs>
+		<filter id="3d" filterUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
+			<feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+			<feOffset in="blur" dx="1" dy="-2" result="offsetBlur"/>
+			<feSpecularLighting in="blur" surfaceScale="3" specularConstant=".8" specularExponent="25" result="specOut">
+				<fePointLight x="-4000" y="-9000" z="15000"/>
+			</feSpecularLighting>
+			<feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut"/>
+			<feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" result="litPaint"/>
+			<feMerge>
+			<feMergeNode in="offsetBlur"/>
+			<feMergeNode in="litPaint"/>
+			</feMerge>
+		</filter>
+		<linearGradient spreadMethod="repeat" x2="10%" y2="20%" id="threaded">
+			<stop offset="0%" style="stop-color: hsl(200, 25%, 50%)"/>
+			
+			<stop offset="20%" style="stop-color: black; stop-opacity: .8;"/>
+			<stop offset="30%" style="stop-color: white"/>
+			
+			<stop offset="40%" style="stop-color: hsl(200, 25%, 50%)"/>
+		</linearGradient>
+		
+		<rect x="20" y="10" width="16" height="75" rx="8" fill="url(#threaded)" id="stitch" filter="url(#3d)" />
+	</defs>
+	<use xlink:href="#stitch" transform="rotate(2, 25, 50)" />
+	<use xlink:href="#stitch" transform="rotate(-2, 25, 150)" y="100" />
+</svg>

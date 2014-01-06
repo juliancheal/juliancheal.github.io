@@ -31,6 +31,16 @@ html {
 	background-size: 100% 300px, auto;
 }
 
+html:before {
+	content: '';
+	position: absolute;
+	top: 0; bottom: 0; left: 50%; margin-left: -27.5em;
+	width: 12px;
+	background: url(images/stitch.svg) repeat-y;
+	background-size: 100% auto;
+	-webkit-filter: drop-shadow(-1px -1px 3px black);
+}
+
 body {
 	padding: 2em 1em 1em;
 	color: white;
@@ -134,7 +144,7 @@ header {
 	/* Stiches */
 	header figure:after {
 		border: 2px dashed hsl(38, 60%, 10%);
-		margin: .8em;
+		margin: .8em .7em .7em .8em;
 		-webkit-filter: drop-shadow(1px 1px 1px hsla(0,0%,100%,.5));
 	}
 	
