@@ -107,7 +107,8 @@ header figure {
       float: none;
       margin-left: -.4em; } }
 
-header figure:hover {
+header figure:hover,
+header figure:active {
   animation-play-state: running; }
 
 header figure:before,

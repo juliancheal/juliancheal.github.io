@@ -138,7 +138,8 @@ header {
 		}
 	}
 	
-	header figure:hover  {
+	header figure:hover,
+	header figure:active  {
 		animation-play-state: running;
 	}
 	
