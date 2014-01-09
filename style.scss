@@ -133,6 +133,7 @@ header {
 		            .2em .6em .2em .4em rgba(0,0,0,.6);
 		animation: picture 10s linear alternate infinite;
 		animation-play-state: paused;
+		user-select: none;
 		
 		@media (max-width: 1100px) {
 			& {
