@@ -40,17 +40,6 @@ body {
 	line-height: 1.6;
 }
 
-/* Decorative stitches */
-body:before {
-	content: '';
-	position: absolute;
-	top: 0; bottom: 0; left: 50%; margin-left: -27.5em;
-	width: 12px;
-	background: url(images/stitch.svg) repeat-y;
-	background-size: 100% auto;
-	-webkit-filter: drop-shadow(-1px -1px 3px black);
-}
-
 
 a {
 	color: inherit;
@@ -64,6 +53,12 @@ body > section {
 	color: white;
 	color: hsl(36, 50%, 85%);
 	text-shadow: .2em -.2em .2em rgba(0,0,0,.6), -.2em -.2em .2em rgba(0,0,0,.6);
+	
+	@media (max-width: 1100px) {
+		& {
+			max-width: 22em;
+		}
+	}
 }
 
 body > section > h1 {
@@ -86,7 +81,7 @@ header {
 	}
 
 	header h1 {
-		width: 13.7em;
+		max-width: 13.7em;
 		margin-top: 1em;
 		font-family: 'IM Fell English SC', 'Palatino Linotype';
 		font-size: 160%;
@@ -116,6 +111,7 @@ header {
 		overflow: hidden;
 		width: 20em;
 		height: 20em;
+		max-width: 100%;
 		padding: 2em;
 		border: 0 solid rgba(0,0,0,.6);
 		border-width: 0 3px 4px 0;
@@ -133,6 +129,13 @@ header {
 		            .2em .6em .2em .4em rgba(0,0,0,.6);
 		animation: picture 10s linear alternate infinite;
 		animation-play-state: paused;
+		
+		@media (max-width: 1100px) {
+			& {
+				float: none;
+				margin-left: -.4em;
+			}
+		}
 	}
 	
 	header figure:hover  {
@@ -188,6 +191,7 @@ footer {
 	box-sizing: border-box;
 	border: $size*.04 solid transparent;
 	border-radius: 50%;
+	margin-left: $size * .2;
 	margin-bottom: $size * .3;
 	background: radial-gradient(at 50% 5%, lighten($color, 5%), $color), 
 	            linear-gradient(darken($color,5%), lighten($color, 12%)), 
@@ -232,6 +236,12 @@ footer {
 			stroke: currentColor;
 			text-shadow: 0 0 20px;
 		}
+	}
+	
+	&:active {
+		transform: scale(.95);
+		margin-top: 1px;
+		box-shadow: -1px -2px 20px 4px black;
 	}
 	
 	/* Button holes */
@@ -282,9 +292,43 @@ footer {
 
 nav {
 	position: absolute;
-	top: 4em; bottom: 0; left: 50%; 
+	top: 0; bottom: 0; left: 50%; 
+	padding-top: 4em;
+	padding-right: 2em;
 	width: 90px;
-	margin-left: calc(-27.5em - 110px);
+	margin-left: calc(-28em - 90px);
+	
+	@media (max-width: 1100px) {
+		& {
+			margin-left: calc(-15em - 90px)
+		}
+	}
+	
+	@media (max-width: 630px) {
+		& {
+			position: static;
+			width: auto;
+			text-align: center;
+			margin: 0;
+		}
+	}
+	
+	/* Decorative stitches */
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0; bottom: 0; right: 0;
+		width: 12px;
+		background: url(images/stitch.svg) repeat-y;
+		background-size: 100% auto;
+		-webkit-filter: drop-shadow(-1px -1px 3px black);
+		
+		@media (max-width: 630px) {
+			& {
+				display: none;
+			}
+		}
+	}
 }
 
 .button {
