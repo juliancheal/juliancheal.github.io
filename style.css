@@ -255,6 +255,84 @@ nav {
   .button > span {
     transform: rotate(-45deg);
     box-shadow: -1px 1px 4.5px black; }
+  @media (max-width: 400px) {
+    .button {
+      position: relative;
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 3.2px solid transparent;
+      border-radius: 50%;
+      margin-left: 16px;
+      margin-bottom: 24px;
+      background: radial-gradient(at 50% 5%, #2e281f, #1f1a14), linear-gradient(#0f0d0a, #433a2d), linear-gradient(#5c4f3d, #1c1812) #1f1a14;
+      background-clip: content-box, padding-box, border-box;
+      background-origin: content-box, padding-box, border-box;
+      box-shadow: 2.4px 8px 2px 1px rgba(0, 0, 0, 0.6);
+      color: black;
+      transition: .4s;
+      /* Button holes */
+      /* Stiching */ }
+      .button > svg {
+        display: block;
+        width: 48.64895px;
+        /* *0.86 / sqrt(2) */
+        overflow: visible;
+        margin: auto; }
+        .button > svg text {
+          font: 18px/1 sans-serif;
+          letter-spacing: .1em;
+          text-anchor: middle;
+          color: black;
+          fill: currentColor;
+          stroke: currentColor;
+          stroke-width: 2px;
+          stroke-linejoin: round;
+          text-shadow: 0 1px 1px rgba(255, 255, 255, 0.15); }
+        .button > svg path {
+          fill: none; }
+      .button:hover {
+        transform: scale(1.15);
+        box-shadow: 2.4px 8px 10px 0px rgba(0, 0, 0, 0.6); }
+        .button:hover svg text {
+          color: #ad9c85;
+          fill: currentColor;
+          stroke: currentColor;
+          text-shadow: 0 0 20px; }
+      .button:active {
+        transform: scale(0.95);
+        margin-top: 1px;
+        box-shadow: -1px -2px 20px 4px black; }
+      .button:before {
+        content: '';
+        position: absolute;
+        top: 27px;
+        left: 26px;
+        width: 6.66667px;
+        height: 6.66667px;
+        border-radius: 50%;
+        background: black;
+        box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3), 13.33333px 0, 13.33333px 1px 1px rgba(255, 255, 255, 0.3), 0 13.33333px, 0 14.33333px 1px rgba(255, 255, 255, 0.3), 13.33333px 13.33333px, 13.33333px 14.33333px 1px rgba(255, 255, 255, 0.3); }
+      .button:after, .button > span {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 16px;
+        height: 5px;
+        border-radius: 3px;
+        margin-top: -3.5px;
+        margin-left: -10px;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), transparent, transparent, rgba(0, 0, 0, 0.5)), linear-gradient(0deg, rgba(0, 0, 0, 0.1), transparent 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 80%), #394c60;
+        background-size: 100% 3px; }
+      .button:after {
+        transform: rotate(45deg);
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); }
+      .button > span {
+        transform: rotate(-45deg);
+        box-shadow: -1px 1px 4px black; } }
 
 #talks:not(:target) {
   display: none; }

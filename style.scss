@@ -333,6 +333,10 @@ nav {
 
 .button {
 	@include button(90px, hsl(35,20%,10%), hsl(210, 25%, 30%));
+	
+	@media (max-width: 400px) {
+		@include button(80px, hsl(35,20%,10%), hsl(210, 25%, 30%));
+	}
 }
 
 #talks:not(:target) {
