@@ -105,7 +105,8 @@ header figure {
   @media (max-width: 1100px) {
     header figure {
       float: none;
-      margin-left: -.4em; } }
+      margin-left: -.4em;
+      width: auto; } }
 
 header figure:hover,
 header figure:active {
