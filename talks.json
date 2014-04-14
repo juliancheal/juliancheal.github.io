@@ -14,6 +14,12 @@
     "country": "pl",
     "city": "Warsaw, Poland"
   }, {
+		"name": "Codemania",
+		"url": "http://codemania.co.nz/",
+		"date": "2014-04-04",
+		"country": "nz",
+		"city": "Auckland, New Zealand"
+	}, {
     "name": "Drones & Aerial Robotics Conference",
     "sessions": [{"title": "Afterdarc: Drone Demo Show", "type": "Talk"}, {"title": "Nodecopter", "type": "Workshop"}],
     "url": "https://droneconference.org/afterdarc",
