@@ -1,10 +1,19 @@
 [
   {
     "name": "",
+    "name": "",
     "url": "",
     "date": "",
     "country": "",
     "city": ""
+  }, {
+    "name": "Dancing with Robots",
+    "name": "Barcelona Ruby Conference 2014",
+    "url": "http://www.baruco.org",
+    "date": "2014-09-11",
+    "days": 3,
+    "country": "es",
+    "city": "Barcelona, Spain"
   }, {
     "title": "Dancing with Robots",
     "name": "Front-Trends 2014",
