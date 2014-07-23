@@ -8,6 +8,22 @@
     "city": ""
   }, {
     "title": "Dancing with Robots",
+    "name": "Nickel City Ruby",
+    "url": "http://nickelcityruby.com",
+    "date": "2014-10-02",
+    "days": 3,
+    "country": "usa",
+    "city": "Buffalo, NY, USA"
+  }, {
+    "title": "Dancing with Robots",
+    "name": "Rocky Mountain Ruby",
+    "url": "http://rockymtnruby.com",
+    "date": "2014-09-24",
+    "days": 2,
+    "country": "usa",
+    "city": "Boulder, CO, USA"
+  }, {
+    "title": "Dancing with Robots",
     "name": "Barcelona Ruby Conference 2014",
     "url": "http://www.baruco.org",
     "date": "2014-09-11",
