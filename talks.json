@@ -39,6 +39,14 @@
     "country": "es",
     "city": "Barcelona, Spain"
   }, {
+    "name": "Nodeconf EU",
+    "sessions": [{"title": "Nodecopter Nodeconf EU", "type": "Workshop"}],
+    "url": "http://nodeconfeu.com",
+    "date": "2013-09-07",
+    "days": 3,
+    "country": "ie",
+    "city": "Waterford, Ireland"
+  }, {
     "title": "Dancing with Robots",
     "name": "Front-Trends 2014",
     "url": "http://front-trends.com",
