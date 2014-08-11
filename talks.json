@@ -8,6 +8,14 @@
     "city": ""
   }, {
     "title": "Dancing with Robots",
+    "name": "Rubyconf Argentina",
+    "url": "http://rubyconfargentina.org",
+    "date": "2014-10-24",
+    "days": 3,
+    "country": "ar",
+    "city": "Buenos Aires, Argentina"
+  }, {
+    "title": "Dancing with Robots",
     "name": "Nickel City Ruby",
     "url": "http://nickelcityruby.com",
     "date": "2014-10-02",
