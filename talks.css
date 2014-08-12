@@ -159,6 +159,7 @@ ul.talks > li {
 		.talks address.country-hu:before { content: url(flags/hu.png); }
 		.talks address.country-mx:before { content: url(flags/mx.png); }
 		.talks address.country-ie:before { content: url(flags/ie.png); }
+		.talks address.country-ar:before { content: url(flags/ar.png); }
 		.talks address.country-england:before { content: url(flags/england.png); }
 		.talks address.country-scotland:before { content: url(flags/scotland.png); }
 		.talks address.country-wales:before { content: url(flags/wales.png); }
