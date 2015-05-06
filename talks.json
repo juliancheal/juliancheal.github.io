@@ -1,6 +1,46 @@
 [
   {
     "title": "Dancing with Robots",
+    "name": "Ruby Nation USA",
+    "url": "http://www.rubynation.org",
+    "date": "2015-06-12",
+    "days": 2,
+    "country": "us",
+    "city": "Washington DC, USA"
+  }, {
+    "title": "Ruby and the Internet of Things",
+    "name": "RubyC Kiev",
+    "url": "http://rubyc.eu",
+    "date": "2015-05-30",
+    "days": 2,
+    "country": "ua",
+    "city": "Kiev, Ukraine"
+  }, {
+    "title": "Dancing with Robots",
+    "name": "JSConf Budapest",
+    "url": "http://jsconfbp.com",
+    "date": "2015-05-14",
+    "days": 2,
+    "country": "hu",
+    "city": "Budapest, Hungry"
+  }, {
+    "title": "Dancing with Robots",
+    "name": "JS Day",
+    "url": "http://2015.jsday.it",
+    "date": "2015-05-12",
+    "days": 2,
+    "country": "it",
+    "city": "Verona, Italy"
+  }, {
+    "title": "Cylon.js and the Internet of Beers"
+    "name": "NodeJS Dublin",
+    "url": "http://www.nodejsdublin.com",
+    "date": "2015-02-26",
+    "days": 1,
+    "country": "ie",
+    "city": "Dublin, Ireland"
+  }, {
+    "title": "Dancing with Robots",
     "name": "Rubyconf Argentina",
     "url": "http://rubyconfargentina.org",
     "date": "2014-10-24",
