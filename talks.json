@@ -1,5 +1,13 @@
 [
   {
+    "name": "Charming Robots",
+    "url": "http://nodejsconf.it",
+    "date": "2015-10-10",
+    "days": 1,
+    "country": "it",
+    "city": "Desenzano"
+  },
+  {
     "title": "Dancing with Robots",
     "name": "Ruby Nation USA",
     "url": "http://www.rubynation.org",
